@@ -23,7 +23,7 @@ jscodeshift -t jQuery.ajax-to-fetch-codemod/transform/index.js <file | folder>
 ### Sample Transform 1
 
 
-##### Before:
+##### `Before:`
 ```js
 $.ajax({
     url: url,
@@ -34,7 +34,7 @@ $.ajax({
 })
 ```
 
-##### After:
+##### `After:`
 ```js
 fetch(url, {
     method: 'PUT',
@@ -52,7 +52,7 @@ fetch(url, {
 ### Sample Transform 2
 
 
-##### Before:
+##### `Before:`
 ```js
 $.ajax({
     url: '/api/v1/base/' + id + '/extra/check' + name,
@@ -73,7 +73,7 @@ $.ajax({
 
 ```
 
-##### After:
+##### `After:`
 ```js
 fetch(`/api/v1/base/${id}/extra/check${name}`, {
     method: 'POST',
