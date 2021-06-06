@@ -1,0 +1,29 @@
+{
+  "name": "jquery.ajax-to-fetch-codemod",
+  "version": "1.0.0",
+  "description": "This repository is used to transform jQuery.ajax to fetch API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/croiden/jQuery.ajax-to-fetch-codemod.git"
+  },
+  "keywords": [
+    "jQuery",
+    "codemod",
+    "ajax",
+    "fetch",
+    "jscodeshift",
+    "js",
+    "transform",
+    "migrate"
+  ],
+  "author": "Croiden Lobo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/croiden/jQuery.ajax-to-fetch-codemod/issues"
+  },
+  "homepage": "https://github.com/croiden/jQuery.ajax-to-fetch-codemod#readme"
+}
